@@ -1,6 +1,40 @@
-# Create new react app
+# npm Start to run the Project
 
-npx
+# Control+C to stop the project
+
+# Open the Browser and type localhost3000
+
+# Getting Started with Create React App
+
+# Node_Modules--> Folder with all Dependencies required to run our project
+
+# Favion.ico ---> icon that shows up on a browser tab
+
+# index.html--> Html file used to start our app
+
+# logo192.png---> Big React Logos
+
+# manifest.json ---> File used to progressive web apps (used for mobile devices)
+
+# robots.txt --> used to tell search engines about our app
+
+# app.css --> CSS Styling
+
+# App.js --> Main App Component for our app
+
+# App.test.js ---> Code to test the App Component
+
+# index.css ---> Css Styling
+
+# index.js ---> Main Startup file
+
+# logo.svg ---> React Logo
+
+# reportWebVitals.js ---> Monitering and Statistics
+
+# setupTest.js ---> More Testing code
+
+# Package-lock.json & Package.json ---> Lists the Dependencies our project needs to work Correctly
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
