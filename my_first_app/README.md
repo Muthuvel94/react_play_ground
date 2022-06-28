@@ -4,7 +4,7 @@
 
 # Control+C to stop the project
 
-# Open the Browser and type localhost3000
+# Open the Browser and type localhost:3000
 
 # Getting Started with Create React App
 
