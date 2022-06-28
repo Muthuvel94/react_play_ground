@@ -1,3 +1,5 @@
+# npx Create-React-App [filename]
+
 # npm Start to run the Project
 
 # Control+C to stop the project
