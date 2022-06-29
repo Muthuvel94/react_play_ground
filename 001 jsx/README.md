@@ -24,9 +24,9 @@
 
 # input---> to display text field
 
-# Props--->Customizes an element Eg: <input type="number" min={5} max={10}/>
+# Props--->Customizes an element Eg: <inputtype="number"min={5}max={10}/>
 
-# Props can referto a variable using the same curly braces syntax function App(){ const inputType = "number"; const minValue = 5; return(<input type={inputType} min={minvalue}/> );}
+# Props can referto a variable using the same curly braces syntax function App(){ const inputType = "number"; const minValue = 5; return(<inputtype={inputType}min={minvalue}/> );}
 
 # Props don't have to be defined as variables
 
@@ -38,15 +38,15 @@
 
 # <h1>{config}</h1> ---> Try to Display an object DOESN'T WORK
 
-# <input : abc={config}/> ---> Try to provide an object as a prob. OK!
+# <input:abc={config}/> ---> Try to provide an object as a prob. OK!
 
 # Object doesn't appear on jsx tag
 
-# return <input style={{ border: "3px Solid Red" }} />; to show border color of Text Field
+# return <inputstyle={{border:"3pxSolidRed"}} />; to show border color of Text Field
 
 # CONVERTING HTML TO JSX
 
-# return <textarea autoFocus={true} />;
+# return <textarea -> autoFocus={true} />;
 
 # Names/values of attributes that you provide to elements in HTML are slightly different when writing JSX
 
@@ -60,11 +60,11 @@
 
 # Rule 1 ---> In JSX, all Prop names follow camelCase
 
-# HTML ---> <input maxlength="5" /> Equivalent JSX---> <input maxLength={5}/>
+# HTML ---> <input > maxlength="5" /> Equivalent JSX---> <input > maxLength={5}/>
 
-# <form autocapitalize /> ----> <form autoCapitalize />
+# <form > autocapitalize /> ----> <form > autoCapitalize />
 
-# <form novalidate /> ----> <form noValidate/>
+# <form > novalidate /> ----> <form > noValidate/>
 
 # In-line Styles are provided as objects
 
