@@ -10,10 +10,7 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 function App() {
-  const date = new Date();
-  const time = date.toLocaleString();
-
-  return <h1>{time}</h1>;
+  return <textarea autoFocus={true} />;
 }
 
 // 5) Show the component on the screen

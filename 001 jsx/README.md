@@ -16,6 +16,58 @@
 
 # Common Error: React Cannot show an object as text content
 
+# COMPONENT LAYOUT
+
+# Code to compute values we want to show in our JSX ---->function app() {const message='Hello'; const sum=1+1;}
+
+# Content we want this component to show --->return(<div> <div> Message is: {Message}</div><div> Sum is: {Sum}</div>)</div>};}
+
+# input---> to display text field
+
+# Props--->Customizes an element Eg: <input type="number" min={5} max={10}/>
+
+# Props can referto a variable using the same curly braces syntax function App(){ const inputType = "number"; const minValue = 5; return(<input type={inputType} min={minvalue}/> );}
+
+# Props don't have to be defined as variables
+
+# Strings---> Wrap with double quotes
+
+# Numbers----> Wrap with Curly braces
+
+# Arrays, Objects and Variables --->Wrap with Curly braces Eg: Array---> list={[1,2,3]} Eg:Object---> Style={{color:'red'}} Eg: Variables ---> alt={message}
+
+# <h1>{config}</h1> ---> Try to Display an object DOESN'T WORK
+
+# <input : abc={config}/> ---> Try to provide an object as a prob. OK!
+
+# Object doesn't appear on jsx tag
+
+# return <input style={{ border: "3px Solid Red" }} />; to show border color of Text Field
+
+# CONVERTING HTML TO JSX
+
+# return <textarea autoFocus={true} />;
+
+# Names/values of attributes that you provide to elements in HTML are slightly different when writing JSX
+
+# All prop names follow camelCase
+
+# Number Attributes use curly braces
+
+# Boolean 'true' can be written with just the property name. 'False' should be written with curly braces
+
+# The 'class' attribute is written as 'className'
+
+# Rule 1 ---> In JSX, all Prop names follow camelCase
+
+# HTML ---> <input maxlength="5" /> Equivalent JSX---> <input maxLength={5}/>
+
+# <form autocapitalize /> ----> <form autoCapitalize />
+
+# <form novalidate /> ----> <form noValidate/>
+
+# In-line Styles are provided as objects
+
 # React---->Library that Defines what a component is and how multiple component work together
 
 # ReactDOM-->Library that knows how to get a componentto showup in the browser
