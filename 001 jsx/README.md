@@ -10,6 +10,12 @@
 
 # <h1>welcome to my webpage</h1> ---? writng this doesn't make anything show up in the browser automatically ---->This Creates an instruction for React, telling it to make and element ---?we have to return it from the component for React to use it
 
+# Curly Braces {} mean we are about to reference a JS Variable or Expression E.g Function App() { const message = 'Hi there'; return <h1>{message}</h1>}
+
+# we most oftem use curly braces to shows strings or numbers
+
+# Common Error: React Cannot show an object as text content
+
 # React---->Library that Defines what a component is and how multiple component work together
 
 # ReactDOM-->Library that knows how to get a componentto showup in the browser
