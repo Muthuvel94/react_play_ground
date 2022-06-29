@@ -4,7 +4,7 @@
 
 # "React.createElement("h1", null, "welcome to my webpage); (This is what runs in the browser)
 
-# This is what retuened from calling create element {$$typeof: Synbol(react,element), key:null, props: ( children: 'welcome to homepage') ref:null type: 'h1'}
+# This is what returned from calling create element {$$typeof: Symbol(react,element), key:null, props: ( children: 'welcome to homepage') ref:null type: 'h1'}
 
 # babeljs.to/repl ---> Tool to show you what your JSX is turned into "https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.21&spec=false&loose=false&code_lz=DwEwlgbgfAUMAWBGKB1ApgGwMYHsC2aABAC46F4CehA7mgEYAOAhgOZrAD0SshhwArhh68-GMFABKaEJzHDewOSwBOaNADtZ4mCNHi6Gfuw5ydfDoNidw0IA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.18.7&externalPlugins=&assumptions=%7B%7D"
 
