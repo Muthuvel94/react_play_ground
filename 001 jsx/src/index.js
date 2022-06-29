@@ -10,8 +10,11 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 function App() {
-  return <textarea autoFocus={true} />;
+  return (
+    <div className="wrapper">
+      <textArea maxlength={3} spellcheck style={{ backgroundcolor: "grey" }} />
+    </div>
+  );
 }
-
 // 5) Show the component on the screen
 root.render(<App />);

@@ -68,6 +68,14 @@
 
 # In-line Styles are provided as objects
 
+# Rule 2 ---> in JSX, attributes meant to be numbers should be provided as numbers with curly braces Eg: <input > maxlength={5} />
+
+# Rule 3 --> in JSX Boolean 'true' can be written with just the property name. 'False' should be written with curly braces Eg: <input > spellcheck="True or false"/> JSX True <input > spellCheck /> <input > spellCheck={false} />
+
+# Rule 4 ---> In JSX the 'class' attribute is written as 'className' Eg: <div > class="divider" /> --JSX <div > className="divider" />
+
+# Rule 5 --> in JSX, in-line styles are provided as objects Eg: style={{textDecoration: 'none' padding: 5px}}
+
 # React---->Library that Defines what a component is and how multiple component work together
 
 # ReactDOM-->Library that knows how to get a componentto showup in the browser
