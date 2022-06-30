@@ -8,6 +8,10 @@
 
 # Getting Started with Create React App
 
+# https://cdnjs.com/libraries/semantic-ui -->Free css styles
+
+# https://semantic-ui.com/views/comment.html --> display Themes
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
