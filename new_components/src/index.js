@@ -6,7 +6,7 @@ const App = () => {
     <div className="ui container comments">
       <div className="comments">
         <a href="/" className="avatar">
-          <img alt="avatar" src={faker.image.image()} />
+          <img alt="avatar" height={50} width={50} src={faker.image.image()} />
         </a>
         <div className="content">
           <a href="/" className="author">
@@ -20,7 +20,7 @@ const App = () => {
       </div>
       <div className="comments">
         <a href="/" className="avatar">
-          <img alt="avatar" src={faker.image.image()} />
+          <img alt="avatar" height={50} width={50} src={faker.image.image()} />
         </a>
         <div className="content">
           <a href="/" className="author">
@@ -34,7 +34,7 @@ const App = () => {
       </div>
       <div className="comments">
         <a href="/" className="avatar">
-          <img alt="avatar" src={faker.image.image()} />
+          <img alt="avatar" height={50} width={50} src={faker.image.image()} />
         </a>
         <div className="content">
           <a href="/" className="author">
