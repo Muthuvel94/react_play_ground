@@ -6,7 +6,7 @@ const App = () => {
     <div className="ui container comments">
       <div className="comments">
         <a href="/" className="avatar">
-          <img alt="avatar" src={faker.image.avatar()} />
+          <img alt="avatar" src={faker.image.image()} />
         </a>
         <div className="content">
           <a href="/" className="author">
