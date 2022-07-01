@@ -10,7 +10,7 @@
 
 # 5---> Make the new component configure by using React's 'props' system
 
-# index.js we separated Comment Component to a new js file CommentDetails.js and copies Comment section code to it and remove comment section code from index.js. now we export CommentDetails.js as export default CommentDetails on CommentDetails.js. after we have to import CommentDatails.js on index.js file by import CommentDetails from './CommentDetails'. final step is to call by using JSX Tag on index.js as <CommentDetails/>
+# index.js we separated Comment Component to a new js file CommentDetails.js and copies Comment section code to it and remove comment section code from index.js. now we export CommentDetails.js as export default CommentDetails on CommentDetails.js. after we have to import CommentDetails.js on index.js file by import CommentDetails from './CommentDetails'. final step is to call by using JSX Tag on index.js as<CommentDetails/>
 
 # App --->CommentDetails [child component] ---> CommentDetails [child component] ---> CommentDetails [child component] it's called Component Hierarchy
 
