@@ -8,9 +8,17 @@
 
 # 4----> Create a new component in the new file, paste the JSX into it
 
-# 5---> Make the new component configure by using React's 'props' sysytem
+# 5---> Make the new component configure by using React's 'props' system
 
 # index.js we separated Comment Component to a new js file CommentDetails.js and copies Comment section code to it and remove comment section code from index.js. now we export CommentDetails.js as export default CommentDetails on CommentDetails.js. after we have to import CommentDatails.js on index.js file by import CommentDetails from './CommentDetails'. final step is to call by using JSX Tag on index.js as <CommentDetails/>
+
+# App --->CommentDetails [child component] ---> CommentDetails [child component] ---> CommentDetails [child component] it's called Component Hierarchy
+
+# Props -->System for passing date from a parent component to a child component ---> Goal is to customize or configure a child component
+
+# App --->CommentDetails [Props--> shows a name of alex] ---> CommentDetails [Props--> shows a name of Jane] ---> CommentDetails [Props--> shows a name of Sam]
+
+# Providing Props(properties) from parent to child --> <CommentDetails---author=(nameoftheprop)---sam(valueoftheprop) />
 
 # Getting Started with Create React App
 
