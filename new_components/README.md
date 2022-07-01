@@ -1,3 +1,17 @@
+# CREATING A REUSABLE, CONFIGURABLE COMPONENT
+
+# 1 ---> Identify the JSX that appears to be duplicated
+
+# 2---> what is the purpose of that block of JSX> Think of a descriptive name for what it does
+
+# 3 ---> create a new file to house this new components - it should have the same name as the component
+
+# 4----> Create a new component in the new file, paste the JSX into it
+
+# 5---> Make the new component configure by using React's 'props' sysytem
+
+# index.js we separated Comment Component to a new js file CommentDetails.js and copies Comment section code to it and remove comment section code from index.js. now we export CommentDetails.js as export default CommentDetails on CommentDetails.js. after we have to import CommentDatails.js on index.js file by import CommentDetails from './CommentDetails'. final step is to call by using JSX Tag on index.js as <CommentDetails/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
