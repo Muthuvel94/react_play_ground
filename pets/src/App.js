@@ -11,30 +11,35 @@ function App() {
           dog
         </p>
       </div>
+      <p></p>
       <div class="ui_segment2">
         <p>
           <IconPicker avatar={faker.animal.cat()} />
           cat
         </p>
       </div>
+      <p></p>
       <div class="ui_segment3">
         <p>
           <IconPicker avatar={faker.animal.crocodilia()} />
           crocodilia
         </p>
       </div>
+      <p></p>
       <div class="ui_segment4">
         <p>
           <IconPicker avatar={faker.animal.cow()} />
           cow
         </p>
       </div>
+      <p></p>
       <div class="ui_segment5">
         <p>
           <IconPicker avatar={faker.animal.snake()} />
           snake
         </p>
       </div>
+      <p></p>
       <div class="ui_segment6">
         <p>
           <IconPicker avatar={faker.animal.horse()} />
