@@ -14,7 +14,9 @@
 }
 
 .ui_segment1 {
-  color: #b86114;
+  color: #b86114;  
+  text-align: left;
+  position:static;
 }
 
 .ui_segment2 {
@@ -35,6 +37,10 @@
 }
 .dog {
   color: blue;
+}
+.ui_segments {
+  background: rgb(204, 164, 164));
+  
 }
 
 .App-header {

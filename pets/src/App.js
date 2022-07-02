@@ -4,7 +4,7 @@ import { faker } from "@faker-js/faker";
 
 function App() {
   return (
-    <div class="ui segments">
+    <div class="ui_segments">
       <div class="ui_segment1">
         <p>
           <IconPicker avatar={faker.animal.dog()} />
