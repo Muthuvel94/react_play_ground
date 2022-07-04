@@ -16,7 +16,11 @@
 
 # RULES oF STATE
 
-# ---> only usable with class components --> you will confuse props with state :( ---> 'State' is a JS Object that contains data relevent to a component --> Updating 'state' on a component causes the component to (almost) instanly rerender --> State must be initialized when a component is created
+# ---> only usable with class components --> you will confuse props with state :( ---> 'State' is a JS Object that contains data relevent to a component --> Updating 'state' on a component causes the component to (almost) instanly rerender --> State must be initialized when a component is created --->State can only be updated using the function 'setState'
+
+# Time line of process
+
+# 1.JS file loaded by browser ---> 2.Instance of App component is created. ---> 3.App components 'constructor'function get called --> 4.State object is created and assigned to the 'this.state' property --> 5. we call geolocation service. --> 6. React calls the component render method --> 7. App return JSX, gets rendered to page as HTML ... ---> 8. we get result of geolocation!
 
 # Getting Started with Create React App
 
