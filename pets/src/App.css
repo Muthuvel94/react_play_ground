@@ -14,10 +14,9 @@
 }
 
 .ui_segment1 {
-  color: #805f18;
+  color: #b86114;
   text-align: left;
   position: static;
-  border: 1px black;
 }
 
 .ui_segment2 {
@@ -37,11 +36,10 @@
   color: #502c0d;
 }
 .dog {
-  color: rgb(112, 113, 94);
+  color: blue;
 }
 .ui_segments {
-  background: white;
-  border: 1px black;
+  background: rgb(204, 164, 164);
 }
 
 .App-header {
@@ -57,9 +55,6 @@
 
 .App-link {
   color: #61dafb;
-}
-.IconPicker {
-  border: 1px solid rgba(174, 24, 24, 0.05);
 }
 
 @keyframes App-logo-spin {

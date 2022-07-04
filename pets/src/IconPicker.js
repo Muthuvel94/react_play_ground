@@ -2,11 +2,11 @@ import React from "react";
 
 const IconPicker = (props) => {
   return (
-    <span className="IconPicker">
+    <div className="IconPicker">
       <a href="/" className="dog">
-        <img alt="  𓃡 " src={props.avatar} />
+        <img alt="𓃡, " height={5} weight={5} src={props.avatar} />
       </a>
-    </span>
+    </div>
   );
 };
 
