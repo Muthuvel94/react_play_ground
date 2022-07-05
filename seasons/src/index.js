@@ -1,5 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
+
 import SeasonDisplay from "./SeasonDisplay";
 
 class App extends React.Component {
@@ -24,5 +25,10 @@ class App extends React.Component {
     return <div>Loading!</div>;
   }
 }
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
