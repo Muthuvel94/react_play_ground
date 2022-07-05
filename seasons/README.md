@@ -22,6 +22,14 @@
 
 # 1.JS file loaded by browser ---> 2.Instance of App component is created. ---> 3.App components 'constructor'function get called --> 4.State object is created and assigned to the 'this.state' property --> 5. we call geolocation service. --> 6. React calls the component render method --> 7. App return JSX, gets rendered to page as HTML ... ---> 8. we get result of geolocation!
 
+# COMPONENT LIFECYCLE
+
+# Timeline --> 1. COnstructor (Good place to do one-time setup) ---> 2. render (constant visible on screen) (Avoid doing anything besides returning JSX) ---> 3. componentDidMount (sit and wait for updates) (Good Place to do Data-loading..)---> 4. componentDidUpdate (sit and wait untill this component is no longer shown) (Good place to do more Data-loading when state.props change ) ---> 5. componentWillUnmount (Good place to do cleanup (especially for non-react stuff))
+
+# OTHER LIFE CYCLE METHODS (rarely used)
+
+# ---->1. shouldComponentUpdate ---> 2.getDerivedStateFromProps ---> 3.getSnapshotBeforeUpdate
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
