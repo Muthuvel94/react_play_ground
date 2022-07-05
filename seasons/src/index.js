@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import SeasonDisplay from "./SeasonDisplay";
+import Spinner from "./Spinner";
 
 class App extends React.Component {
   // This IS THE ONLY TIME we do direct assigment
@@ -15,14 +16,18 @@ class App extends React.Component {
     );
   }
 
-  render() {
+  renderContent() {
     if (this.state.errormessage && !this.state.lat) {
       return <div> Error: {this.state.errormessage} </div>;
     }
     if (!this.state.errormessage && this.state.lat) {
       return <SeasonDisplay lat={this.state.lat} />;
     }
-    return <div>Loading!</div>;
+    return <Spinner message="please accept location request" />;
+  }
+
+  render() {
+    return <div classame="border_red">{this.renderContent}</div>;
   }
 }
 const root = ReactDOM.createRoot(document.getElementById("root"));
