@@ -30,6 +30,8 @@
 
 # ---->1. shouldComponentUpdate ---> 2.getDerivedStateFromProps ---> 3.getSnapshotBeforeUpdate
 
+# BENEFITS OF CLASS COMPONENTS ---> Class Components --> 1. Easier code organisation --> 2.can use 'state' (another react system) --> easier to handle user input --> 3.understands lifecycle events -->Easier to do things when the app starts first
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

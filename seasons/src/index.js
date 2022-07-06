@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "./App.css";
 
 import SeasonDisplay from "./SeasonDisplay";
 import Spinner from "./Spinner";
@@ -27,7 +28,7 @@ class App extends React.Component {
   }
 
   render() {
-    return <div classame="border_red">{this.renderContent}</div>;
+    return <div classame="border red">{this.renderContent()}</div>;
   }
 }
 const root = ReactDOM.createRoot(document.getElementById("root"));
