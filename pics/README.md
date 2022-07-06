@@ -2,6 +2,14 @@
 
 # App Challenges ---> 1. Need to get a search term from the user --> 2. Need to use that search term to make a request to an outside API and fetch data --> 3.Need to take the fetched images and show them on the screen in the list
 
+# Controlled vs uncontrolled Elements
+
+# Flow --> 1.user types in input --> 2. callback get invoked ---> 3.we call setState with the new value --> 4.Component rerenders ---> 5. input is told what its value is (coming from the state)
+
+# HTML World --> <inputvalue="hithere"/> --> React world ??? before refacter to controlled (what is the value of imput right now)
+
+# React world --> state -> {term 'hi there'} DOM World --><inputvalue={golookatstatetogetcurrentvalue}>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
