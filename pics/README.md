@@ -10,6 +10,18 @@
 
 # React world --> state -> {term 'hi there'} DOM World --><inputvalue={golookatstatetogetcurrentvalue}>
 
+# what is 'this' used for in a class? -->How is the value of 'this' determined in a function?
+
+# Instance of SearchBar --> State, render and onFormSubmit ---> this (calls state, render and onformsubit)
+
+# App (this.onSearchSubmit) ---> SearchBar (user submitted the form? Better call my callback to tell App! (this.onsearchsubmit )) --->ImageList
+
+# our App (Client) ---> send me data about pics for 'car' -->UnSplash API ---> Here you go ---> our APP
+
+# axios --> 3rd party package fetch --> function built into modern browsers
+
+# Component renders itself one time with no list of images -->onSearchSubmit method called ---> Request made to splash ...wait... -->Request complete --> Set Image data on state of App Component -->App Component rerenders and shows Images
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
