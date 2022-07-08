@@ -22,6 +22,10 @@
 
 # Component renders itself one time with no list of images -->onSearchSubmit method called ---> Request made to splash ...wait... -->Request complete --> Set Image data on state of App Component -->App Component rerenders and shows Images
 
+# Let the Imagecard render itself and its image ---> Reach into the DOM and figure out the height of the image --> set the image height on state to get the components to rerender --> when rerendering, assign a 'grid-row-end' to make sure the image takes up the appropriate space.
+
+# React Refs--->gives access to a Single DOM Element --> We create refs in the constructor, assign them to instance variables, then pass to a particular JSX element as props.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
