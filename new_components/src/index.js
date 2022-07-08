@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import CommentDetails from "./CommentDetails";
 import { faker } from "@faker-js/faker";
 import ApprovalCard from "./ApprovalCard";
+import "./style/App.css";
 if (module.hot) {
   module.hot.accept();
 }

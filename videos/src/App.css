@@ -13,38 +13,9 @@
   }
 }
 
-.ui_segment1 {
-  color: #b86114;
-  text-align: left;
-  position: static;
-}
-
-.ui_segment2 {
-  color: #6c14b8;
-}
-
-.ui_segment3 {
-  color: #21c441;
-}
-.ui_segment4 {
-  color: #110423;
-}
-.ui_segment5 {
-  color: #590707;
-}
-.ui_segment6 {
-  color: #502c0d;
-}
-.dog {
-  color: blue;
-}
-.ui_segments {
-  background: rgb(204, 164, 164);
-}
-
 .App-header {
-  background-color: #b86114;
-  min-height: 150vh;
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
