@@ -26,6 +26,14 @@
 
 # what is React? --> React is a javascript front-end library. it is used to show content to users and handle user events. --> Engineers use React to create reusable components.
 
+# items --> title-what is react? content--React is a javascript ---> title-How do we show? content--To show content ---> title-why is react useful? content--Engineers like React
+
+# const [ activeIndex(piece of state) setActiveIndex(Function to change the process of state)]=useSTate(null(initial value for this piece of state))
+
+# Class Components --> Initialization state={activeindex:0} Reference--> this.state.activeIndex updates-->this.setState({activeIndex:10})
+
+# Function Components --> Initialization useState(0) Reference--> activeIndex updates-->setActiveIndex(10)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
