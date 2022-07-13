@@ -42,6 +42,16 @@
 
 # option 2 --> search when term piece of state changes ---> can easily trigger a search when other parameter change! --> Easier to extract code out into a more reusable function!
 
+# The 'useEffect' hook --> allows function components to use something like lifecycle methods --> we configure the hook to run some code automatically in one of three scenarios ---> 1. when the component is rerendered for firsttime only ---> 2. when the component is rendered for the first time and whenever it rerenders ---> 3. when the component is rerendered for the first time and (whenever it rerenders and some piece of data has changed).
+
+# useEffect Second Argument
+
+# []-->Run as initial render
+
+# ...nothing... ---> Run as initial render --> Run after every rerender
+
+# data --> run at initial render --> Run after every rerender if data has changed since last render
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

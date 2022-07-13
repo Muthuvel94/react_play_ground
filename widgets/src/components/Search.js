@@ -1,7 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Search = () => {
   const [Term, setTerm] = useState("");
+  console.log("I Run with Every Render");
+  useEffect(() => {
+    console.log("I Run After Every render and it intial render");
+  }, [Term]);
   return (
     <div className="ui form">
       <div className="field">
