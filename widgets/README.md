@@ -34,6 +34,14 @@
 
 # Function Components --> Initialization useState(0) Reference--> activeIndex updates-->setActiveIndex(10)
 
+# what do we search? option 1 --> user types in input --> onchange event handler called --> we take value from input and make request to API ..... ----> get response ---> Update 'results' piece of state --->components rerenders, we show list of results
+
+# option 2 -->User types in input -->Onchanger event handler called --->Update 'term' piece of state --> Component rerenders -->we add code to detect that 'term' has changed! --> Make request to API .... ----> Get response --->update 'results' piece of state --->components rerenders, we show list of results
+
+# Option 1 ---> Search instantly when onchange event triggers -->Tightly couples'onchange' with search
+
+# option 2 --> search when term piece of state changes ---> can easily trigger a search when other parameter change! --> Easier to extract code out into a more reusable function!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
