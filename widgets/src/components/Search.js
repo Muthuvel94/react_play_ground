@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 const Search = () => {
   const [Term, setTerm] = useState("");
-  console.log("I Run with Every Render");
-  useEffect(() => {
-    console.log("I Run After Every render and it intial render");
+
+  useEffect(async () => {
+    await axios("s");
   }, [Term]);
   return (
     <div className="ui form">
