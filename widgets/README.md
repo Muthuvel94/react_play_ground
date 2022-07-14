@@ -52,6 +52,8 @@
 
 # data --> run at initial render --> Run after every rerender if data has changed since last render
 
+# input change --> set a timer to search in 500 ms --> next input change --> go back and cancel previous timer and set a timer to search in 500 ms ...... ---> No additional changes -->Last timer created executes
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
