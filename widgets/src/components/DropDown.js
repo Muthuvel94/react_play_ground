@@ -1,6 +1,6 @@
 import React from "react";
 
-const DropDown = () => {
+const DropDown = ({ options }) => {
   const renderedOptions = options.map((option) => {
     return (
       <div key={option.value} className="item">
