@@ -19,9 +19,11 @@ const Search = () => {
       });
       setResults(data.query.search);
     };
-    if (Term) {
-      search();
-    }
+    const timeoutId = setTimeout(() => {
+      if (Term) {
+        search();
+      }
+    }, 500);
   }, [Term]);
 
   const renderedResults = results.map((result) => {
