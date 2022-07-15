@@ -2,10 +2,21 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const Search = () => {
-  const [Term, setTerm] = useState("");
+  const [Term, setTerm] = useState("progrmming");
+  const [deboundedTerm, setDeboundedTerm] = useState(Term);
   const [results, setResults] = useState([]);
-
   console.log(results);
+
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      setDeboundedTerm(Term);
+    }, 1000);
+
+    return () => {
+      clearTimeout(timerId);
+    };
+  }, [Term]);
+
   useEffect(() => {
     const search = async () => {
       const { data } = await axios.get("https://en.wikipedia.org/w/api.php", {
@@ -19,15 +30,19 @@ const Search = () => {
       });
       setResults(data.query.search);
     };
-    const timeoutId = setTimeout(() => {
-      if (Term) {
-        search();
-      }
-    }, 1000);
+    if (Term && !results.length) {
+      search();
+    } else {
+      const timeoutId = setTimeout(() => {
+        if (Term) {
+          search();
+        }
+      }, 1000);
 
-    return () => {
-      clearTimeout(timeoutId);
-    };
+      return () => {
+        clearTimeout(timeoutId);
+      };
+    }
   }, [Term]);
 
   const renderedResults = results.map((result) => {

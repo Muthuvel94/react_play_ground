@@ -54,6 +54,8 @@
 
 # input change --> set a timer to search in 500 ms --> next input change --> go back and cancel previous timer and set a timer to search in 500 ms ...... ---> No additional changes -->Last timer created executes
 
+# 1. Initial Component Render ---> term === programming deboundedTerm === programming useEffect for deboundedTerm runs -- inital data fetch complete 2. User Types something ---> immediately update Term--> term === programming bo --- set timer to update debounded term 3. User Types something ---> cancel previous Timer ---> immediately update Term--> term === programming books
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
