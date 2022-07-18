@@ -56,6 +56,12 @@
 
 # 1. Initial Component Render ---> term === programming deboundedTerm === programming useEffect for deboundedTerm runs -- inital data fetch complete 2. User Types something ---> immediately update Term--> term === programming bo --- set timer to update debounded term 3. User Types something ---> cancel previous Timer ---> immediately update Term--> term === programming books
 
+# The Dropdown needs to be detect a click event on any elements besides on it called --> The DropDown has a hard time setting up event handlers on elements that it does not create ---> Event Bubbling is a thing --->>> The DropDown can set up a manual event listener (without React) on the body element. --> A clict on any element will bubble up to the body
+
+# Scenario #1 --> User clicks on an element that is created by the DropDown Component --> If a user clicks on one of these elements, then we probably don't want the body event listner to do anything
+
+# Scenario #2 --> User clicks on any element besides the ones created by the DropDown --> if a user clicks on any of these elements, we do want the body event listener to close the dropdown
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
