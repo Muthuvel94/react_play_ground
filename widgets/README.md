@@ -62,6 +62,8 @@
 
 # Scenario #2 --> User clicks on any element besides the ones created by the DropDown --> if a user clicks on any of these elements, we do want the body event listener to close the dropdown
 
+# UseRef (Ref)--> Direct Reference to a DOM Element
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
