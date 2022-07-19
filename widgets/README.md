@@ -64,6 +64,8 @@
 
 # UseRef (Ref)--> Direct Reference to a DOM Element
 
+# Majority of React apps use React-Router ... However... 1. React Router has frequent breaking changes 2. More important to learn the ideas and theory of navigation 3.we are going to build some navigation stuff from scratch 4.React-Router will be covered later in the course
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
