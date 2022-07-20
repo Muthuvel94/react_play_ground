@@ -5,8 +5,6 @@ const Search = () => {
   const [Term, setTerm] = useState("programming");
   const [deboundedTerm, setDeboundedTerm] = useState(Term);
   const [results, setResults] = useState([]);
-  console.log(results);
-
   useEffect(() => {
     const timerId = setTimeout(() => {
       setDeboundedTerm(Term);

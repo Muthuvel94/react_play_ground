@@ -1,9 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Router = ({ path, children }) => {
+  const [currentPath, setCurrentPath] = useState(window.location.pathname);
   useEffect(() => {
     const onLocationChange = () => {
-      console.log("location change");
+      setCurrentPath(window.location.pathname);
     };
     window.addEventListener("popstate", onLocationChange);
 
@@ -11,6 +12,6 @@ const Router = ({ path, children }) => {
       window.removeEventListener("popstate", onLocationChange);
     };
   }, []);
-  return window.location.pathname === path ? children : null;
+  return currentPath === path ? children : null;
 };
 export default Router;
