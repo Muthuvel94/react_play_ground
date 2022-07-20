@@ -68,6 +68,8 @@
 
 # Navigation --> showing different sets of components when the URL Changes
 
+# User click on "list" --> Change the URL, but don't do a full page refresh ---> Each Route could detect the URL has changed--->Route could update piece of state tracking the current pathname --> Each Route rerenders, showing/hiding component appropriately
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
