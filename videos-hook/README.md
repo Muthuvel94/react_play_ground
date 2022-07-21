@@ -6,6 +6,8 @@
 
 # 1. identify each line of code related to some single purpose 2. identify the inputs to that code 3. identify the outputs to that code 4. Extracts all of the code into a separate functions, receiving the inputs as arguments, and returning the outputs.
 
+# Deployed through vercel--https://videos-hook-nine-sand.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
