@@ -4,6 +4,8 @@
 
 # Redux Cycle ---> 1. Action Creator ---> 2. Action --> 3.dispatch ----> 4. Reducers ---> 5. State
 
+# Reduz cycle example "https://codepen.io/muthuvel94/pen/eYMRJmV?editors=0010"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
