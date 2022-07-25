@@ -6,6 +6,8 @@
 
 # Reduz cycle example "https://codepen.io/muthuvel94/pen/eYMRJmV?editors=0010"
 
+# Redux is not magic --> 1. Redux does not automatically detect action creators being called --> 2. Redux does not automatically detect a function returning an object that is an 'action'
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
