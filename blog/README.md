@@ -6,6 +6,10 @@
 
 # 1. redux -- The Redux Library 2. react-redux---> Integration layer between react and redux 3. axios--> Help us make network requests 4. redux-thunk --> Middleware to helps us make requests in a redux application
 
+# GENERAL DATA LOADING WITH REDUX
+
+# ---> 1. Components get rendered onto the screen ---> 2. Component's 'componentDidMount' lifecycle method gets called --> 3. we call actioncreater from ComponentDidMount (1 to 3 --> Components are responsible for fetching data they need by calling an action creater) --> 4. Actioncreater runs code to make an API request --> 5. API responds with data ---> 6. Actioncreater return an 'action' with an fetched data on the 'payload' property ( 4 to 6 --> Action creater are responsible for making API request)[This is where Redux-Thunk comes into play] --->7. Some Reducers seems the action, returns the data off the 'payload' ---> 8. Because we generated some new state object, redux/react-redux cause our React app to be rerendered. ( 7 and 8 ---> we get fetched data into a component by generating new state in our redux store, then getting that into our component through mapStateToProps)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
