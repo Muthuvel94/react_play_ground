@@ -10,6 +10,20 @@
 
 # ---> 1. Components get rendered onto the screen ---> 2. Component's 'componentDidMount' lifecycle method gets called --> 3. we call actioncreater from ComponentDidMount (1 to 3 --> Components are responsible for fetching data they need by calling an action creater) --> 4. Actioncreater runs code to make an API request --> 5. API responds with data ---> 6. Actioncreater return an 'action' with an fetched data on the 'payload' property ( 4 to 6 --> Action creater are responsible for making API request)[This is where Redux-Thunk comes into play] --->7. Some Reducers seems the action, returns the data off the 'payload' ---> 8. Because we generated some new state object, redux/react-redux cause our React app to be rerendered. ( 7 and 8 ---> we get fetched data into a component by generating new state in our redux store, then getting that into our component through mapStateToProps)
 
+# what's wrong with 'fetchPost'? --> 1. Action creater must retain plain JS objects with a type property we are not! ---> 2. By the time our action gets to a reducer, we won't have fetched our data.
+
+# Synchronous action creater --> Instantly return an action with data ready to go
+
+# Asynchronous action creater --> Takes some amount of time for it to get its data ready to go
+
+# Middleware in Redux ---> 1. Function that gets called with every action we dispatch --> 2. Has the ability to STOP, MODIFY or otherwise mess around with actions --> 3. Tons of open source middleware exist ---> 4. Most popular use of Middleware is for dealing with async actions ---> 5. we are going to use a middleware called 'Redux-Thunk' to solve our async issues.
+
+# Normal Rules --> 1. Action creater must return action objects ---> 2. Action must have a type property ---> 3. Action can optionally have a 'payload'
+
+# Rules with Reduc-Thunk ---> 1. Action creater can return action objects or Action creater can return functions ---> 2. if an action objects get returned, it must have a type --> 3. if an action object gets returned, it can optionally have a "playload'
+
+# Flow of Redux-Thunk---> are you a function> --> 1. NO object --> Reducers 2. yes --> i am going to call the dispatch and getState function --> function invoked with 'dispatch' --> we wait for our request to finish ---> Request complete dipatch action manually --> new action created ---> disptach
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
