@@ -24,6 +24,8 @@
 
 # Flow of Redux-Thunk---> are you a function> --> 1. NO object --> Reducers 2. yes --> i am going to call the dispatch and getState function --> function invoked with 'dispatch' --> we wait for our request to finish ---> Request complete dipatch action manually --> new action created ---> disptach
 
+# RULES for REDUCERS: ---> 1. Must return any value besides 'undefined' ---> 2. Produces 'state' or data to be used inside of your app using only previous state and the action (reducers are pure) ---> 3. Must not return reach 'out of itself' to decide what value to return ---> 4. Must not mutate its input 'state' argument
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
