@@ -2,6 +2,18 @@
 
 # ---> 1. need to be able to navigate around to separate pages in our app --> 2. need to allow a user to login/logout --> 3. need to handle forms in Redux ---> 4. Need to master CRUD (create, read, update and destroy) operations in React/Redux ---> 5. Erros will likely occur! need good error handling
 
+# react-router --> core navigation lib - we don't install this manually
+
+# react-router-dom ---> navigation for dom-based apps(we want this)
+
+# react-router-navite --> navigation for react-native app
+
+# react-router-reduc ---> binding between react router and redux (not necessary)
+
+# using <a> and Href !!Bad Navigation!! Browser receives index file, dumps old HTML it was showing (including all of your React/Redux state data!)
+
+# using <link> what we want ---> 1. User wants to navigate to another app in our app ---> 2. User clicks a link tag ---> 3. React Router prevents the browser from navigating to the new page and fetching new index.html file --> 4. URL still changes --> 5. History sees updated URL, takes URL and sends it to BrowserRouter --> 6. BrowserRouter communicates the URL to Route Components ---> 7. React components rerender to show new set of components
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
