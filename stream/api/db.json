@@ -2,16 +2,6 @@
   "streams": [
     {
       "title": "My Stream",
-      "description": "This is a great stream.",
-      "id": 1
-    },
-    {
-      "title": "Other Stream",
-      "description": "Here's some stream",
-      "id": 2
-    },
-    {
-      "title": "My Stream",
       "description": "Good one",
       "id": 3
     },
@@ -30,6 +20,12 @@
       "description": "Good One as a Tester",
       "userId": "100514784941712800326",
       "id": 6
+    },
+    {
+      "title": "Programmatic Navigation",
+      "description": "you should not see this",
+      "userId": "100514784941712800326",
+      "id": 7
     }
   ]
 }
