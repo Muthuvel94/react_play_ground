@@ -20,6 +20,12 @@
       "description": "Testing Stream",
       "userId": "100514784941712800326",
       "id": 9
+    },
+    {
+      "title": "New Stream",
+      "description": "Wonderful one",
+      "userId": "100514784941712800326",
+      "id": 10
     }
   ]
 }
