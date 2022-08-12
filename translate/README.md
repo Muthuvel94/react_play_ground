@@ -1,3 +1,9 @@
+# Redux vs React context
+
+# Redux ---> 1. Distributes Data to various components --> 2. Centralizes data in a store --> 3. Provides mechanism for changing data in the store
+
+# context --->1. Only Distributes Data to various components
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
