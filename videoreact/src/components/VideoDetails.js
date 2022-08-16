@@ -9,6 +9,7 @@ const VideoDetails = ({ video }) => {
   return (
     <div className="video-details col-md-8">
       <div className="embed-responsive embed-responsive-16by9">
+        <br></br>
         <iframe
           title="Youtube Search"
           className="embed-responsive-item"
