@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/react-sparklines": "^1.7.2",
     "@types/redux-promise": "^0.5.29",
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
@@ -28,6 +29,7 @@
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-redux": "5.0.7",
+    "react-sparklines": "^1.7.0",
     "redux": "4.0.0",
     "redux-promise": "^0.6.0"
   }
