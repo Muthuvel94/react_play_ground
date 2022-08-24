@@ -1,22 +1,64 @@
 import React from 'react';
 import { Field, Form, reduxForm } from 'redux-form';
+import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { createPost } from '../actions';
 
 class PostNew extends React.Component {
-  renderTitleField(field) {
+  renderField(field) {
+    const {
+      meta: { touched, error },
+    } = field;
+    const className = `form-group ${touched && error ? 'has-danger' : ''}`;
     return (
-      <div className='form-group'>
-        <label>Title</label>
+      <div className={className}>
+        <label>{field.label}</label>
         <input className='form-control' type='text' {...field.input} />
+        <div className='text-help'>{touched ? error : ''}</div>
       </div>
     );
   }
+  onSubmit(values) {
+    this.props.createPost(values, () => {
+      this.props.history.push('/');
+    });
+  }
+
   render() {
+    const { handleSubmit } = this.props;
     return (
-      <Form>
-        <Field name='title' component={this.renderTitleField} />
-        <Field name='tags' component={this.renderTagsField} />
+      <Form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
+        <Field label='Title' name='title' component={this.renderField} />
+        <Field label='Tags' name='tags' component={this.renderField} />
+        <Field label='Content' name='content' component={this.renderField} />
+        <button type='submit' className='btn btn-primary'>
+          Submit
+        </button>
+
+        <Link to='/' className='btn btn-danger'>
+          Cancel
+        </Link>
       </Form>
     );
   }
 }
-export default reduxForm({ form: 'PostsNewForm' })(PostNew);
+
+function validate(values) {
+  const errors = {};
+  // if (!values.title.length < 3) {
+  //   errors.title = 'Title must be atleast 3 characters';
+  // }
+  if (!values.title) {
+    errors.title = 'Enter the Title';
+  }
+  if (!values.tags) {
+    errors.tags = ' Enter some categories ';
+  }
+  if (!values.content) {
+    errors.content = ' Enter some content';
+  }
+  return errors;
+}
+export default reduxForm({ validate, form: 'PostsNewForm' })(
+  connect(null, { createPost })(PostNew)
+);
