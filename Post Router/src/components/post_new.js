@@ -29,7 +29,11 @@ class PostNew extends React.Component {
     return (
       <Form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
         <Field label='Title' name='title' component={this.renderField} />
-        <Field label='Tags' name='tags' component={this.renderField} />
+        <Field
+          label='Categories'
+          name='categories'
+          component={this.renderField}
+        />
         <Field label='Content' name='content' component={this.renderField} />
         <button type='submit' className='btn btn-primary'>
           Submit
@@ -51,8 +55,8 @@ function validate(values) {
   if (!values.title) {
     errors.title = 'Enter the Title';
   }
-  if (!values.tags) {
-    errors.tags = ' Enter some categories ';
+  if (!values.categories) {
+    errors.categories = ' Enter some categories ';
   }
   if (!values.content) {
     errors.content = ' Enter some content';
