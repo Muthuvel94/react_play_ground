@@ -21,6 +21,7 @@ class PostNew extends React.Component {
   onSubmit(values) {
     this.props.createPost(values, () => {
       this.props.history.push('/');
+      alert('Post Submitted');
     });
   }
 
@@ -49,9 +50,7 @@ class PostNew extends React.Component {
 
 function validate(values) {
   const errors = {};
-  // if (!values.title.length < 3) {
-  //   errors.title = 'Title must be atleast 3 characters';
-  // }
+
   if (!values.title) {
     errors.title = 'Enter the Title';
   }
