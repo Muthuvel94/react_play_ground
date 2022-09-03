@@ -5,7 +5,7 @@ import { createPost } from '../actions/index';
 import Link from 'react-router';
 
 class PostNew extends React.Component {
-  static contextType = {
+  static contextTypes = {
     router: PropTypes.object,
   };
 
@@ -81,6 +81,7 @@ export default reduxForm(
   {
     form: 'PostsNewForm',
     fields: ['title', 'categories', 'content'],
+    validate,
   },
   null,
   { createPost }

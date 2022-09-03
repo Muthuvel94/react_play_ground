@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { bindActionCreaters } from 'redux';
 import { fetchPosts } from '../actions/index';
 import { Link } from 'react-router';
 
