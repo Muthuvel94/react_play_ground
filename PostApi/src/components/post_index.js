@@ -39,9 +39,4 @@ function mapStateToProps(state) {
   return { posts: state.posts.all };
 }
 
-//
-//   function mapDispatchToProps(dispatch) {
-// return bindActionCreaters({ fetchPosts }, dispatch);
-// }
-
 export default connect(mapStateToProps, { fetchPosts })(PostIndex);

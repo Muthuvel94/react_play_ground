@@ -11,7 +11,7 @@ class PostNew extends React.Component {
 
   onSubmit(props) {
     this.props.createPost(props).then(() => {
-      this.content.router.push('/');
+      this.context.router.push('/');
     });
   }
   render() {
