@@ -12,57 +12,56 @@ class App extends React.Component {
         }}
       >
         <ListGroup>
-          <ListGroup.Item>
+          <ListGroup.Item style={{ cursor: 'pointer' }}>
             <img
               src='https://img.icons8.com/dusk/452/dog.png'
               alt=''
               style={{ width: '20px', height: '20px' }}
-            />
+            />{' '}
             Dog
           </ListGroup.Item>
-          <ListGroup.Item>
-            {' '}
+          <ListGroup.Item style={{ cursor: 'pointer' }}>
             <img
               src='https://img.icons8.com/dusk/452/cat-head--v1.png'
               alt=''
               style={{ width: '20px', height: '20px' }}
-            />
+            />{' '}
             Cat
           </ListGroup.Item>
-          <ListGroup.Item>
+          <ListGroup.Item style={{ cursor: 'pointer' }}>
             {' '}
             <img
               src='https://img.icons8.com/dusk/452/chicken.png'
               alt=''
               style={{ width: '20px', height: '20px' }}
-            />
+            />{' '}
             Chicken
           </ListGroup.Item>
-          <ListGroup.Item>
+          <ListGroup.Item style={{ cursor: 'pointer' }}>
             {' '}
             <img
               src='https://img.icons8.com/dusk/344/bull.png'
               alt=''
               style={{ width: '20px', height: '20px' }}
-            />
+            />{' '}
             Bull
           </ListGroup.Item>
-          <ListGroup.Item>
+          <ListGroup.Item style={{ cursor: 'pointer' }}>
             {' '}
             <img
               src='https://img.icons8.com/dusk/344/alpaca--v1.png'
               alt=''
               style={{ width: '20px', height: '20px' }}
-            />
+            />{' '}
             Sheep
           </ListGroup.Item>
-          <ListGroup.Item>
+          <ListGroup.Item style={{ cursor: 'pointer' }}>
             {' '}
             <img
               src='https://img.icons8.com/dusk/344/seahorse.png'
               alt=''
               style={{ width: '20px', height: '20px' }}
-            />
+            />{' '}
             SeaHorse
           </ListGroup.Item>
         </ListGroup>
