@@ -4,11 +4,6 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <div className='fb-button'>
-          <button className='btn-fb'>Facebook</button>
-          <button className='btn-git'>Github</button>
-          <button className='btn-google'>Google</button>
-        </div>
         <div id='link-bar'>
           <a className='menu-item' href='www.google.com'>
             Google
@@ -16,6 +11,9 @@ export default class App extends Component {
           <a className='menu-item' href='www.gmail.com'>
             Gmail
           </a>
+          <button className='btn-fb'>Facebook</button>
+          <button className='btn-git'>Github</button>
+          <button className='btn-google'>Google</button>
           <button className='btn-login'>Login</button>
           <button className='btn-signup'>Signup</button>
           <button className='btn-disabled'>Disabled</button>

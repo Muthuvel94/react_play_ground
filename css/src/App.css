@@ -3,10 +3,6 @@
   width: 20px;
 }
 
-.fb-button {
-  padding: 30px 60px;
-}
-
 .btn-fb {
   background-color: #3b5993;
   padding: 8px 16px;
@@ -43,7 +39,7 @@
   padding: 12px 24px;
   border: none;
   border-radius: 8px;
-  margin-left: 650px;
+  margin-left: 400px;
   outline: none;
   cursor: pointer;
 }
