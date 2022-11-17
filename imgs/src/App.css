@@ -1,0 +1,12 @@
+.head1 {
+  margin-left: 400px;
+}
+
+.image-wrapper {
+  width: 250px;
+  height: 180px;
+  display: inline;
+}
+.inliner {
+  display: block;
+}
