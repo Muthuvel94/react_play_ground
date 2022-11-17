@@ -1,0 +1,43 @@
+#link-bar {
+  background-color: lightblue;
+  padding: 24px 48px;
+}
+
+.menu-item {
+  font-size: 24px;
+  margin-right: 24px;
+  color: black;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  font-style: italic;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+p {
+  color: brown;
+  text-align: justify;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 0px;
+  line-height: 1.5;
+}
+
+.para_2 {
+  border: 3px solid blue;
+  padding: 16px 20px 24px 28px;
+  padding: 24px 48px;
+  margin: 24px;
+}
+#Ordered-list {
+  list-style-type: lower-roman;
+}
+#unordered-list {
+  list-style-type: circle;
+}
