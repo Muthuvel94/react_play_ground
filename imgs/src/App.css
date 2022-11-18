@@ -1,12 +1,27 @@
 .head1 {
   margin-left: 400px;
+  text-shadow: 2px 2px gray;
 }
 
 .image-wrapper {
+  display: inline;
   width: 250px;
   height: 180px;
-  display: inline;
+  /* position: absolute;
+  left: 0%; */
 }
 .inliner {
   display: block;
+}
+.span1 {
+  background-color: lightblue;
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+}
+.span2 {
+  background-color: pink;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
 }
