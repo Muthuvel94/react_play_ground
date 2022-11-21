@@ -25,3 +25,36 @@
   height: 100px;
   width: 200px;
 }
+
+/* div h1 {
+  background-color: brown;
+} */
+
+.txt1:focus {
+  background-color: lightblue;
+}
+
+/* .txt2:disabled {
+  cursor: not-allowed;
+} */
+
+/* .txt1:focus:required {
+  background-color: rgb(255, 0, 0), 8;
+} */
+
+.span2::after {
+  content: '!';
+}
+.span1::before {
+  content: '~';
+}
+.imgback {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa2YQ4w9UVb9cqELy2SYK4gwEnxoESz0g15g&usqp=CAU');
+  color: #f0f8ff;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+.head1 {
+  background: linear-gradient(to right, #f869d5, #5650de);
+  width: 35%;
+}

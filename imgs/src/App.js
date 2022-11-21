@@ -5,11 +5,13 @@ class App extends React.Component {
     return (
       <div>
         <h1 className='head1'>Beautiful Places in the World</h1>
+        <textarea className='txt1'>Enter the Text</textarea>
+        <textarea className='txt2'>Diabled</textarea>
         <div>
           <span className='span1'>Hello </span>
           <span className='span2'>Hello World! </span>
         </div>
-        <div>
+        <div className='imgback'>
           <span className='inliner'>Home </span>
           <span className='inliner'>Places </span>
           <span className='inliner'>About </span>
