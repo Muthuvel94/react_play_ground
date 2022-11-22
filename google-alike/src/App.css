@@ -1,0 +1,28 @@
+.header {
+  font-family: Arial, sans-serif;
+  text-align: right;
+}
+
+.menu-item {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  position: relative;
+  top: -8px;
+  margin-right: 16px;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+.userpic {
+  width: 25px;
+  height: 25px;
+}
+
+#dropdown-menu {
+  margin-right: 16px;
+  position: relative;
+  top: -2px;
+}
