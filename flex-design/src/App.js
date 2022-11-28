@@ -40,6 +40,7 @@ class App extends React.Component {
                 id='profile-pic'
                 alt='no pic'
               ></img>
+              <div className='rotate'>Div</div>
             </div>
           </div>
         </div>
