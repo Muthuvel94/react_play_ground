@@ -15,3 +15,22 @@ img {
     transform: translate(-50%, -100vh);
   }
 }
+
+/*
+  #gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 16px;
+    row-gap: 32px;
+    column-gap: 48px;
+    justify-content: flex-start;
+  }
+
+  for mobile screen
+
+  @media (max-width: 400px) {
+    #gridcontainer {
+      grid-template-columns: auto auto;
+    }
+  }
+  */

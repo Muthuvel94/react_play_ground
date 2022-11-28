@@ -4,10 +4,40 @@ import '../src/App.css';
 class App extends React.Component {
   render() {
     return (
-      <img
-        alt='Rocket Vector'
-        src='https://www.shutterstock.com/image-vector/cartoon-rocket-space-ship-take-260nw-540835846.jpg'
-      />
+      <div id='gridcontainer'>
+        <img
+          alt='Rocket Vector'
+          src='https://www.shutterstock.com/image-vector/cartoon-rocket-space-ship-take-260nw-540835846.jpg'
+        />
+        <img
+          alt='Rocket Vector'
+          src='https://www.shutterstock.com/image-vector/cartoon-rocket-space-ship-take-260nw-540835846.jpg'
+        />
+        <img
+          alt='Rocket Vector'
+          src='https://www.shutterstock.com/image-vector/cartoon-rocket-space-ship-take-260nw-540835846.jpg'
+        />
+        <img
+          alt='Rocket Vector'
+          src='https://www.shutterstock.com/image-vector/cartoon-rocket-space-ship-take-260nw-540835846.jpg'
+        />
+        <img
+          alt='Rocket Vector'
+          src='https://www.shutterstock.com/image-vector/cartoon-rocket-space-ship-take-260nw-540835846.jpg'
+        />
+        <img
+          alt='Rocket Vector'
+          src='https://www.shutterstock.com/image-vector/cartoon-rocket-space-ship-take-260nw-540835846.jpg'
+        />
+        <img
+          alt='Rocket Vector'
+          src='https://www.shutterstock.com/image-vector/cartoon-rocket-space-ship-take-260nw-540835846.jpg'
+        />
+        <img
+          alt='Rocket Vector'
+          src='https://www.shutterstock.com/image-vector/cartoon-rocket-space-ship-take-260nw-540835846.jpg'
+        />
+      </div>
     );
   }
 }
