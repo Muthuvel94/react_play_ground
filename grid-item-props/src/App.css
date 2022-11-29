@@ -7,12 +7,14 @@
   background-color: lightseagreen;
   padding: 24px;
   grid-area: header;
+  text-align: center;
 }
 
 #sidebar {
   background-color: lightcoral;
   padding: 24px;
   grid-area: sidebar;
+  text-align: center;
 }
 
 #main {
@@ -20,18 +22,21 @@
   padding: 24px;
   height: 460px;
   grid-area: main;
+  text-align: center;
 }
 
 #aside {
   background-color: bisque;
   padding: 24px;
   grid-area: aside;
+  text-align: center;
 }
 
 #footer {
   background-color: lightseagreen;
   padding: 24px;
   grid-area: footer;
+  text-align: center;
 }
 
 #grid-container {
