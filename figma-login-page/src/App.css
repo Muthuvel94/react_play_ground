@@ -1,0 +1,88 @@
+.Footer {
+  padding-top: 24px;
+  margin-left: 60%;
+}
+
+.Footer-menu {
+  padding-right: 8px;
+  padding-left: 4px;
+  border-right: 2px black double;
+  cursor: pointer;
+}
+
+.Demo-video {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  padding: 40px 20px;
+  width: 600px;
+  height: 350px;
+  border: 2px darkcyan dashed;
+}
+
+.login-title {
+  position: absolute;
+  top: 22%;
+  left: 65%;
+  font-size: larger;
+  font-style: normal;
+  font: bold;
+}
+
+.bar-line {
+  position: absolute;
+  top: 30%;
+  left: 65%;
+}
+
+.Google-login {
+  position: absolute;
+  top: 38%;
+  left: 65%;
+}
+
+.alt-login {
+  position: absolute;
+  top: 55%;
+  left: 68%;
+}
+
+.fst_name {
+  position: absolute;
+  top: 62%;
+  left: 65%;
+  width: 110px;
+  height: 20px;
+}
+
+.lst-name {
+  position: absolute;
+  top: 62%;
+  left: 75%;
+  width: 110px;
+  height: 20px;
+}
+
+.email {
+  position: absolute;
+  top: 69%;
+  left: 65%;
+  width: 240px;
+  height: 20px;
+}
+
+.password {
+  position: absolute;
+  top: 76%;
+  left: 65%;
+  width: 240px;
+  height: 20px;
+}
+
+.Login-email {
+  position: absolute;
+  top: 84%;
+  left: 65%;
+  width: 240px;
+  height: 25px;
+}
