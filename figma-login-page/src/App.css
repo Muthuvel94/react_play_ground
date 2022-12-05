@@ -83,6 +83,17 @@
   position: absolute;
   top: 84%;
   left: 65%;
-  width: 240px;
-  height: 25px;
+  width: 250px;
+
+  background-color: lightgrey;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.Login-email:hover {
+  background-color: rgb(88, 88, 204);
+  color: white;
 }
