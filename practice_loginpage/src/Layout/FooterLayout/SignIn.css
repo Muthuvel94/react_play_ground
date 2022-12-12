@@ -1,0 +1,22 @@
+.sign-in {
+  height: 5vh;
+  position: absolute;
+  left: 83vw;
+  top: 5.5vh;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.sign-in:hover {
+  background-color: cyan;
+}
+
+@media (max-width: 1000px) {
+  .sign-in {
+    position: absolute;
+    left: 89vw;
+    top: 5vh;
+    cursor: pointer;
+  }
+}

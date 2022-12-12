@@ -1,0 +1,19 @@
+.Blog {
+  padding: 32px 8px;
+  position: absolute;
+  left: 70vw;
+  cursor: pointer;
+}
+
+.Blog:hover {
+  color: blueviolet;
+}
+
+@media (max-width: 1000px) {
+  .Blog {
+    padding: 32px 8px;
+    position: absolute;
+    left: 75vw;
+    cursor: pointer;
+  }
+}

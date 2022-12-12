@@ -1,0 +1,19 @@
+.Reach-Us {
+  padding: 32px 8px;
+  position: absolute;
+  left: 75vw;
+  cursor: pointer;
+}
+
+.Reach-Us:hover {
+  color: blueviolet;
+}
+
+@media (max-width: 1000px) {
+  .Reach-Us {
+    padding: 32px 8px;
+    position: absolute;
+    left: 80vw;
+    cursor: pointer;
+  }
+}

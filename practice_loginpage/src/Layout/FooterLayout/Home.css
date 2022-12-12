@@ -1,0 +1,10 @@
+.Home-Footer {
+  padding: 32px 8px;
+  position: absolute;
+  left: 50vw;
+  cursor: pointer;
+}
+
+.Home-Footer:hover {
+  color: blueviolet;
+}

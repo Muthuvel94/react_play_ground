@@ -1,0 +1,19 @@
+.About {
+  padding: 32px 8px;
+  position: absolute;
+  left: 55vw;
+  cursor: pointer;
+}
+
+.About:hover {
+  color: blueviolet;
+}
+
+@media (max-width: 1000px) {
+  .About {
+    padding: 32px 8px;
+    position: absolute;
+    left: 57vw;
+    cursor: pointer;
+  }
+}

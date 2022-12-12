@@ -1,0 +1,45 @@
+.name-input1 {
+  height: 7vh;
+  width: 12vw;
+  position: relative;
+  left: 52vw;
+  top: 22vh;
+}
+
+.name-input2 {
+  height: 7vh;
+  width: 12vw;
+  position: relative;
+  left: 53vw;
+  top: 22vh;
+}
+
+.email-input {
+  height: 8vh;
+  width: 25vw;
+  position: relative;
+  left: 52vw;
+  top: 24vh;
+}
+.pass-input {
+  height: 8vh;
+  width: 25vw;
+  position: relative;
+  left: 52vw;
+  top: 26vh;
+}
+
+.signup-button {
+  height: 8vh;
+  width: 25vw;
+  position: relative;
+  left: 52vw;
+  top: 28vh;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.signup-button:hover {
+  background-color: rgb(118, 118, 223);
+}

@@ -1,0 +1,19 @@
+.Docs {
+  padding: 32px 8px;
+  position: absolute;
+  left: 65vw;
+  cursor: pointer;
+}
+
+.Docs:hover {
+  color: blueviolet;
+}
+
+@media (max-width: 1000px) {
+  .Docs {
+    padding: 32px 8px;
+    position: absolute;
+    left: 70vw;
+    cursor: pointer;
+  }
+}
