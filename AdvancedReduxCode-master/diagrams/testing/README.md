@@ -58,6 +58,14 @@ Enzyme Renderers:
 
 Enzyme API ---> 1. Static (Render the given component and return plain HTML) --> 2. Shallow (Render 'just' the given component and none of its children --> 3. Full DOM (Render the component and all of its children + lets us modify it afterwards))
 
+Simulationg Events:
+
+1. find the textarea element
+2. simulates a 'change' event
+3. provide a fake event object
+4. force the component to update
+5. Assert that the textareas value has changed
+
 ## Available Scripts
 
 In the project directory, you can run:
