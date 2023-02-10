@@ -50,7 +50,7 @@ expect (Global function) --> (values that we are inspecting{the thing we are wan
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Limiting Test Knowledge:
-App [App's secret internal workings] App.test.js ---> OK ---> Comment List [CL's secret internal workngs] commentList.test.js ----> No ---> CommentBox [ CB's secret internal workings] CommentBox.test.js
+App [App's secret internal workings] App.test.js ---> OK ---> Comment List [CL's secret internal working's] commentList.test.js ----> No ---> CommentBox [ CB's secret internal workings] CommentBox.test.js
 
 npm install --save enzyme enzyme-adapter-react-18
 
@@ -58,13 +58,13 @@ Enzyme Renderers:
 
 Enzyme API ---> 1. Static (Render the given component and return plain HTML) --> 2. Shallow (Render 'just' the given component and none of its children --> 3. Full DOM (Render the component and all of its children + lets us modify it afterwards))
 
-Simulationg Events:
+Simulating Events:
 
 1. find the textarea element
 2. simulates a 'change' event
 3. provide a fake event object
 4. force the component to update
-5. Assert that the textareas value has changed
+5. Assert that the textarea's value has changed
 
 ## Available Scripts
 
