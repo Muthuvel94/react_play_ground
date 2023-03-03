@@ -66,6 +66,14 @@ Simulating Events:
 4. force the component to update
 5. Assert that the textarea's value has changed
 
+Unit Tests: (Number of Pieces of our App touched in a single test [Few Parts])
+i. Does the CommentBox show a button?
+ii. Does the CommentList produce a list of 'Li' elements?
+iii. Does the action creator return an object?
+
+Integration Tests: (Number of Pieces of our App touched in a single test [Many Parts])
+i. Does clicking 'Fetch Comments' show a list of 'Li's'?
+
 ## Available Scripts
 
 In the project directory, you can run:

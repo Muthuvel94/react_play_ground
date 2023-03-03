@@ -2,11 +2,15 @@ import React from 'react';
 
 import CommentBox from 'components/CommentBox';
 import { mount } from 'enzyme';
-
+import Root from 'reducers/Root';
 let wrapped;
 
 beforeEach(() => {
-  wrapped = mount(<CommentBox />);
+  wrapped = mount(
+    <Root>
+      <CommentBox />
+    </Root>
+  );
 });
 
 afterEach(() => {
@@ -16,7 +20,7 @@ it('has a text area and a button', () => {
   // const wrapped = mount(<CommentBox />);
 
   expect(wrapped.find('textarea').length).toEqual(1);
-  expect(wrapped.find('button').length).toEqual(1);
+  expect(wrapped.find('button').length).toEqual(2);
 
   console.log(wrapped.find('textarea').length);
 });
