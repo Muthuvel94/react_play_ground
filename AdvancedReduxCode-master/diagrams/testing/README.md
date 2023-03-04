@@ -74,6 +74,17 @@ iii. Does the action creator return an object?
 Integration Tests: (Number of Pieces of our App touched in a single test [Many Parts])
 i. Does clicking 'Fetch Comments' show a list of 'Li's'?
 
+Higher Order Components:
+
+Component (React Component) + Higher Order Component (React Component) = Component (Additional functionality or data "Enhanced" + or "Composed" + "Component")
+
+Building a HOC:
+
+1. write tha logic you want to reuse in a component
+2. Create a HOC File and add the HOC scaffold
+3. Move the reuseable logic into the HOC
+4. Pass props/config/behavior through to child component
+
 ## Available Scripts
 
 In the project directory, you can run:
