@@ -1,0 +1,29 @@
+const mangoose = require('mangoose');
+const Schema = mangoose.Schema;
+const bcrypt = require('bcrypt-nodejs');
+// Define our model
+const userSchema = new Schema({
+  email: { type: String, unique: true, lowercase: true },
+  password: String,
+});
+
+userSchema.pre('save', function (next) {
+  const user = this;
+  bcrypt.getSalt(10, function (err, salt) {
+    if (err) {
+      return next(err);
+    }
+    bcrypt.hash(user.password, salt, null, function (err, hash) {
+      if (err) {
+        return next(err);
+      }
+      user.password = hash;
+      next();
+    });
+  });
+});
+// create the model class}
+const ModelClass = mangoose.model('user', userSchema);
+// Export the model
+
+module.exports = ModelClass;
