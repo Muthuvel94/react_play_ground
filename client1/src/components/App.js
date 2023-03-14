@@ -4,7 +4,8 @@ import Header from './Header';
 export default ({ children }) => {
   return (
     <div>
-      <Header /> {children}
+      <Header />
+      {children}
     </div>
   );
 };
