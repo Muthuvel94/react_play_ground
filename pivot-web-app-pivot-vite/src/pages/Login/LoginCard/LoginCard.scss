@@ -1,0 +1,105 @@
+.login-card-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 40px;
+  align-items: center;
+
+  .card-head {
+    padding: 20px;
+    width: 350px;
+    background: #ffffff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    height: 460px;
+  }
+
+  .card-title {
+    text-align: center;
+    color: #505050;
+    font-size: 18px;
+    margin-top: 30px;
+
+    & > div:first-child {
+      font-weight: 700;
+      font-size: 32px;
+      margin-bottom: 3px;
+    }
+  }
+
+  .card-form {
+    & > div {
+      padding: 7px 30px;
+    }
+    input[type='email'],
+    input[type='password'] {
+      margin-top: 10px;
+      width: 100%;
+      background: #f5fbf9;
+      border: 1px solid rgba(80, 80, 80, 0.5);
+      border-radius: 5px;
+      height: 50px;
+      outline: none;
+      padding: 8px;
+      box-sizing: border-box;
+      transition: 0.3s;
+    }
+
+    input[type='email']:focus,
+    input[type='password']:focus {
+      border-color: dodgerBlue;
+      box-shadow: 0 0 8px 0 dodgerBlue;
+      transform: scale(1.1);
+    }
+
+    input[type='checkbox'] {
+      vertical-align: middle;
+      position: relative;
+      margin-right: 10px;
+      width: 16px;
+      height: 16px;
+      border-radius: 3px;
+    }
+  }
+
+  .checkbox-keep-me {
+    & > label {
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    & > input {
+      margin-right: 10px;
+      font-size: 18px;
+    }
+  }
+
+  .btn-login-wrap {
+    display: flex;
+    justify-content: center;
+
+    .btn-login {
+      width: 150px;
+      height: 45px;
+      background: #273773;
+      border: none;
+      mix-blend-mode: normal;
+      border-radius: 10px;
+      color: #ffffff;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+  .signup-btn {
+    color: #566a7f;
+  }
+}
+
+.google-button-image {
+  padding: 4px;
+  border: #cce4e1;
+  border-style: double;
+  background-color: #cce4e1;
+  border-radius: 5px;
+}
