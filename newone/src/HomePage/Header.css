@@ -1,0 +1,36 @@
+.Header {
+  position: absolute;
+  left: 100px;
+  top: 25px;
+}
+
+.Header label {
+  margin-left: 40px;
+}
+
+.Header2 input {
+  position: absolute;
+  left: 60vw;
+  top: 25px;
+}
+.Header2 button {
+  position: absolute;
+  left: 80vw;
+  top: 25px;
+}
+@media (max-width: 800px) {
+  .Header label {
+    display: flex;
+    flex-direction: row;
+  }
+  .Header2 input {
+    position: absolute;
+    left: 35vw;
+    top: 25px;
+  }
+  .Header2 button {
+    position: absolute;
+    left: 65vw;
+    top: 25px;
+  }
+}
